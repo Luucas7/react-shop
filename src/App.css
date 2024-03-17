@@ -1,0 +1,63 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2{
+  font-size: 1em;
+}
+
+.discount-item{
+  background-color: rgb(227, 218, 207);
+}
+
+.discount-item .price{
+  color: rgb(127, 5, 5);
+  text-decoration: line-through;
+  
+}
+
+.discount{
+  color: rgb(2, 149, 2);
+}
+
+.store-item-grid{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.grid-item{
+  border: 1px solid gainsboro;
+  flex: 0 1 15%;
+  margin: 5vmin;
+  min-width: 20vmin;
+  min-height: 20vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  
+}
+
+.item-image { 
+  width: 75%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.item-image img{
+  width: 100%;
+  height: auto;
+}
+
+.shopping-manager{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: beige;
+}
+
+.shopping-manager > div{
+  margin: 1vmin;
+}
